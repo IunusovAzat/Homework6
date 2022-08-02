@@ -33,8 +33,7 @@ public class Main {
         for (int i = reverseFullName.length-1; i >=0 ; i--) {
             System.out.print(reverseFullName[i]);
         }
-
-        }
+    }
         public static int[] generateRandomArray() {
             java.util.Random random = new java.util.Random();
             int[] arr = new int[30];
